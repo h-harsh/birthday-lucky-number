@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bodoni Moda', serif;
+}
+body{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(to right, #e52d27, #b31217)
+}
+.glass {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1100px;
+  height: 600px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(2551 255, 255, 0.1);
+  box-shadow: 30px 30px 40px rgba( 0, 0, 0, 0.2);
+  border-radius: 80px;
+  backdrop-filter: blur(10px);
+}
+header h1{
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Potta One', cursive;
+    color: whitesmoke;
+    font-size: 2.5rem;
+
+  }
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.small-box-container{
+    text-align: center;
+    margin: 1rem;
+    font-size: 2rem;
+}
+label{
+    background: transparent;
+}
+.btn{
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+   cursor: pointer;
+  border-bottom-right-radius: 25%;
+}  
+input{
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+.runner-image{
+    height: 13rem;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {right: -200px;}
+    to {right: 300px;}
+  }
+.lucky{
+  display:none;
+}
+.unlucky{
+  display: none;
+}
+
+
+
+/* footer */
+footer{
+  background: #b31217;
+  position: relative;
+  bottom: 0;
+  top: 95%;
+  display: block;
+  width: 100%;
+  border-radius: 10% 10% 0 0 ;
+  padding: 1.5rem 0   ;
+  text-align: center;
+  font-size: 1.2rem;
+
+}
+footer h5{
+  display: inline-block;
+  background: whitesmoke;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  cursor:pointer;
+  margin-top: 1rem;
+}
+footer h5:hover{
+  background: #e52d27;
+  color:whitesmoke
+}
