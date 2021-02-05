@@ -12,7 +12,7 @@
 }
 @media only screen and (min-width:450px) and (max-width: 549px) {
     body{
-        height: 1300px;
+        /* height: 1300px; */
 
     }
     .glass{
@@ -22,7 +22,7 @@
 }
 @media only screen and (max-width:449px) {
     body{
-        height: 1300px;
+        /* height: 1300px; */
     }
     .glass{
         width:300px;

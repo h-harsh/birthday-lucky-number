@@ -10,6 +10,8 @@ let agreeBtn = document.querySelector(".agree-Btn");
 let dobArray = []
 let newDobArray = [];
 let answer;
+let labels = document.querySelectorAll(".label");
+ let inputs = document.querySelectorAll(".label-input");
 
 btn.addEventListener("click", function(){
 // input we got of dob is in string, so coinverting it into array
@@ -37,6 +39,12 @@ btn.addEventListener("click", function(){
         result.innerHTML = "Your DOB isn't, But you are Lucky" ;
         unLuckyImg.style.display = "block";
     }
+// // to hde input and label after clcik
+    for(let i=0; i<2; i++){
+        labels[i].style.display = "none";
+        inputs[i].style.display = "none";
+    }
+    btn.style.display = "none";
 });
 
 // reset button
@@ -49,11 +57,21 @@ btnReset.addEventListener("click", function(){
      result.innerHTML = "";
      luckyImg.style.display = "none";
      unLuckyImg.style.display = "none";
+     for(let i=0; i<2; i++){
+        labels[i].style.display = "inline-block";
+        inputs[i].style.display = "inline-block";
+    }
+    btn.style.display = "inline-block"
 
 });
 
 agreeBtn.addEventListener("click", function(){
     footerClass.style.display = "none";
 })
+
+// trial
+ 
+
+
 
 
