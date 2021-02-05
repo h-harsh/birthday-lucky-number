@@ -15,3 +15,9 @@
         width: 380px;
     }
 }
+@media only screen and (max-width:449px) {
+    .glass{
+        width:300px;
+        height: 700px;
+    }
+}
