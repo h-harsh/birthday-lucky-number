@@ -11,11 +11,19 @@
     }
 }
 @media only screen and (min-width:450px) and (max-width: 549px) {
+    body{
+        height: 1300px;
+
+    }
     .glass{
         width: 380px;
+        height: 700px;
     }
 }
 @media only screen and (max-width:449px) {
+    body{
+        height: 1300px;
+    }
     .glass{
         width:300px;
         height: 700px;

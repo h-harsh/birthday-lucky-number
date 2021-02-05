@@ -30,11 +30,11 @@ btn.addEventListener("click", function(){
 
 // 2nd part checking divisiblity and showing output
     if(num.value % answer === 0){
-        result.innerHTML = "You are a lucky person, Go Ahead.";
+        result.innerHTML = "With you Your DOB is also Lucky";
         luckyImg.style.display = "block";
 
     } else{
-        result.innerHTML = "This dosen't shows you lucky, but It's only a matter of belief, Believe and you are" ;
+        result.innerHTML = "Your DOB isn't, But you are Lucky" ;
         unLuckyImg.style.display = "block";
     }
 });
