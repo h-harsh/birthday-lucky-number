@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&display=swap');
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Bodoni Moda', serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Bodoni Moda', serif;
 }
 body{
-    height: 100vh;
-    width:100%;
-    background-image: linear-gradient(to right, #e52d27, #b31217)
+  height: 100vh;
+  width:100%;
+  background-image: linear-gradient(to right, #e52d27, #b31217);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .glass {
   position: absolute;
@@ -24,22 +26,21 @@ body{
   backdrop-filter: blur(10px);
 }
 header h1{
-    text-align: center;
-    padding: 2rem;
-    font-family: 'Potta One', cursive;
-    color: whitesmoke;
-    font-size: 2.5rem;
-
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Potta One', cursive;
+  color: whitesmoke;
+  font-size: 2.5rem;
   }
 .input{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .small-box-container{
-    text-align: center;
-    margin: 1rem;
-    font-size: 2rem;
+  text-align: center;
+  margin: 1rem;
+  font-size: 2rem;
 }
 label{
     background: transparent;
@@ -47,7 +48,7 @@ label{
 .btn{
   padding: 0.5rem 1rem;
   font-size: 1.3rem;
-   cursor: pointer;
+  cursor: pointer;
   border-bottom-right-radius: 25%;
 }  
 input{
@@ -55,9 +56,9 @@ input{
   margin-left: 1rem;
 }
 .runner-image{
-    height: 13rem;
-    position: relative;
-    animation: mymove 5s infinite;
+  height: 13rem;
+  position: relative;
+  animation: mymove 5s infinite;
   }
   
   @keyframes mymove {
@@ -99,3 +100,6 @@ footer h5:hover{
   background: #e52d27;
   color:whitesmoke
 }
+
+
+

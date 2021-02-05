@@ -4,7 +4,9 @@ let btn = document.querySelector(".btn-submit");
 let btnReset = document.querySelector(".btn-reset");
 let result = document.querySelector(".output-result");
 let luckyImg = document.querySelector(".lucky")
-let unLuckyImg = document.querySelector(".unlucky")
+let unLuckyImg = document.querySelector(".unlucky");
+let footerClass = document.querySelector(".footer");
+let agreeBtn = document.querySelector(".agree-Btn");
 let dobArray = []
 let newDobArray = [];
 let answer;
@@ -50,6 +52,8 @@ btnReset.addEventListener("click", function(){
 
 });
 
-
+agreeBtn.addEventListener("click", function(){
+    footerClass.style.display = "none";
+})
 
 
